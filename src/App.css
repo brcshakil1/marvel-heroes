@@ -7,3 +7,9 @@ body{
     background-size: cover;
     background-attachment: fixed; 
 }
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('./images/thanos-mobile.jpg');
+    }
+}
