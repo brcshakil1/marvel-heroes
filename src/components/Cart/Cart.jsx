@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 function Cart({selectedActors, totalCost, totalRemaining}) {
   return (
     <div className='text-center md:text-left'>
-      <h3 className='text-xl font-semibold'>Total Actors: {selectedActors.length}</h3>
-      <h4>Remaining: {totalRemaining}</h4>
-      <h4>Total Cost: {totalCost}</h4>
+      <h3 className='text-2xl font-semibold'>Total Actors: {selectedActors.length}</h3>
+      <h4 className='font-semibold text-xl'>Remaining: {totalRemaining}</h4>
+      <h4 className='font-semibold xl'>Total Cost: {totalCost}</h4>
       {
         selectedActors.map((actor, idx) => <div key={idx} 
           className='flex items-center bg-[#4a4848cc] p-2.5 my-2 rounded-md mx-auto w-[250px]'>

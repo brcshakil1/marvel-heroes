@@ -10,6 +10,7 @@ body{
 
 @media (max-width: 768px) {
     body {
-        background-image: url('./images/thanos-mobile.jpg');
+        background-image: url('./images/thanos-mobile.jpg'),
+        linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4));;
     }
 }

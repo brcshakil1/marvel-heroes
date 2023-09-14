@@ -38,7 +38,7 @@ function Home() {
 
   return (
     <div className="container mx-auto pt-20">
-        <div className='md:flex flex-col md:flex-row'>
+        <div className='flex flex-col-reverse md:flex-row'>
             {/* card container*/}
             <div className='w-full md:w-2/3 md:flex flex-wrap justify-center gap-5 mb-6'>
                 {
@@ -58,8 +58,8 @@ function Home() {
                 }
             </div>
             {/* cart */}
-            <div className='relative w-full md:w-1/3 mx-auto md:pl-12'>
-               <div className='static md:fixed mb-5'>
+            <div className='w-full md:w-1/3 mx-auto pb-10 md:pl-12'>
+               <div className='mb-5'>
                 <Cart 
                     selectedActors={selectedActors}
                     totalCost={totalCost}
